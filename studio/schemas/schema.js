@@ -22,6 +22,7 @@ import simplePortableText from './objects/simplePortableText';
 import hero from './objects/hero';
 import imageSection from './objects/imageSection';
 import mailchimp from './objects/mailchimp';
+import teste from './objects/teste';
 import textSection from './objects/textSection';
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -38,6 +39,7 @@ export default createSchema({
     internalLink,
     link,
     mailchimp,
+    teste,
     page,
     portableText,
     route,
